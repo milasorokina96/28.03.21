@@ -26,10 +26,10 @@ class Exchange {
     
       if (this.uah.value){
 
-        data.forEach(function(item){
+        data.forEach((item) => {
 
           if(item.cc === this.select.value){
-            
+
             this.result.innerText = (this.uah.value / item.rate).toFixed(2) + ' ' + this.select.value;
           }
     
