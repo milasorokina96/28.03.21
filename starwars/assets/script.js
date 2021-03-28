@@ -1,3 +1,6 @@
+//<button class="load-more">Load More</button>
+ //       <div class="box"></div>
+
 class StarWarsData {
   state = {
     starships: [],

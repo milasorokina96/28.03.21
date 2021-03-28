@@ -1,6 +1,17 @@
 // Создать небольшой обмен валют. Перевести гривну в доллар, евро, рубль.
 // url: 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json',
 
+//<form name="formExchange">
+//  <input type="number" name="UAH">
+//  <select name="exchange">
+//    <option value="EUR">EUR</option>
+//    <option value="USD">USD</option>
+//    <option value="RUB">RUB</option>
+//  </select>
+//  <button type="button" id="btnExchange">Exchange</button>
+//</form>
+//<div id="exchangeResult"></div>
+
 class Exchange {
   constructor(url, btnExchange, uah, select, result) {
     this.url = url,

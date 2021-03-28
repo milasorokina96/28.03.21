@@ -4,6 +4,12 @@
 // Пользователь может в любой момент прекратить диалог написав сообщение, например, 'Bye'. 
 // Тогда браузер должен вежливо попрощаться.
 
+//<form name="chatForm">
+//    <textarea name="chatSms"></textarea>
+//    <button type="button" id="btnSend">Send</button>
+//</form>
+//<div id="chatArea"></div>
+
 class Chat {
   constructor(btnSend, userSms, chatArea) {
     this.btnSend = btnSend,
